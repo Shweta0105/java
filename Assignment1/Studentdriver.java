@@ -95,7 +95,7 @@ public class Studentdriver
 		student[i].setQual(ql);
 		student[i].setDob(daydob, monthdob, yeardob);
 		student[i].setAddress(line1, line2, city, state, pinCode);
-		System.out.println("\n###################################################################################################");
+		System.out.println("\n");
 		student[i].displayDetails(p, q, s);
         }
 	}
